@@ -1,0 +1,33 @@
+{
+  "name": "sinch-voice-api-webhook-node",
+  "version": "1.0.0",
+  "description": "Sinch Voice Callback Request Signing",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roland-sinch/sinch-voice-api-webhook-node.git"
+  },
+  "keywords": [
+    "Sinch",
+    "Voice",
+    "API",
+    "Callback",
+    "webhook"
+  ],
+  "author": "Roland Clothier <roland.ian.clothier@sinch.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roland-sinch/sinch-voice-api-webhook-node/issues"
+  },
+  "homepage": "https://github.com/roland-sinch/sinch-voice-api-webhook-node#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
