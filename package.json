@@ -1,17 +1,15 @@
 {
-  "name": "sinch-voice-api-webhook-node",
+  "name": "voice-api-webhook-nodejs",
   "version": "1.0.0",
   "description": "Sinch Voice Callback Request Signing",
+  "type": "commonjs",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/roland-sinch/sinch-voice-api-webhook-node.git"
+    "url": "git+https://github.com/sinch/voice-api-webhook-nodejs.git"
   },
   "keywords": [
     "Sinch",
@@ -20,14 +18,24 @@
     "Callback",
     "webhook"
   ],
-  "author": "Roland Clothier <roland.ian.clothier@sinch.com>",
+  "author": "Roland Clothier <support@sinch.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/roland-sinch/sinch-voice-api-webhook-node/issues"
+    "url": "https://github.com/sinch/voice-api-webhook-nodejs/issues"
   },
-  "homepage": "https://github.com/roland-sinch/sinch-voice-api-webhook-node#readme",
+  "homepage": "https://github.com/sinch/voice-api-webhook-nodejs#readme",
   "dependencies": {
     "dotenv": "^16.0.3",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "typescript": "^4.9.5",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "prettier": "^2.8.4"
   }
 }
