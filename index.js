@@ -5,7 +5,7 @@ const sinch = require('./lib/sinch');
 const app = express();
 app.use(express.raw({ type: '*/*' }));
 const port = 8000;
-app.get('/', (res) => {
+app.get('/', (req, res) => {
   res.send('GET Pong!');
 });
 app.post('/', (req, res) => {
